@@ -21,6 +21,9 @@ class PmsCamera(object):
 		try:
 			cv_image = self.bridge_object.imgmsg_to_cv2(data, desired_encoding='bgr8')  # The image object that is the same thing with regular opencv projects.
 			# only difference is that we're receiving the camera payload from another computers camera.
+			# [OPTIONAL] Image processing algorithms is running from here.
+			# I did not implemented any image processing in this project.
+			# I aim to create a system not a program.
 		except CvBridgeError as e:
 			print(e)
 		cv2.imshow('Surveillance Window', cv_image)  # dislay the result.
