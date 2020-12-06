@@ -10,7 +10,13 @@
   ![Wiring](https://github.com/oguzalp7/Patient-Monitoring-System/blob/main/Wiring.png)
   And how is Patient Monitoring System looks like:
   ![System](https://github.com/oguzalp7/Patient-Monitoring-System/blob/main/3c656eca-b337-4419-a031-9e91c1f474ba.jpg)
+Arduino ros.h tutorials: http://wiki.ros.org/rosserial_arduino/Tutorials
+MAX30102 Library: https://github.com/oxullo/Arduino-MAX30100
+L298N Motor Driver Library: https://github.com/AndreaLombardo/L298N
 
+
+When you're set your libraries for Arduino, copy and paste each Arduino sketches to 2 Arduinos.
+[Important] The system is created based on Serial Communication Protocol, leave the bootloader cables on Arduino that connected to your PC/Raspberry Pi/Nvidia Jetson, any device that runs Ubuntu/ROS and OpenCV
 
 # 1-Installation
   Make every bash script executable : ex. "sudo chmod +x installROS.sh"
