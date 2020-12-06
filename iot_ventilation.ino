@@ -20,15 +20,15 @@ L298N motor(EN, IN1, IN2); //creating 1 motor instance
 * The motor driving algorithms runs here
 */
 void messageCb( const std_msgs::Int32& toggle_msg){
-  while(toggle_msg.data == 1){
-    motor.setSpeed(255);
-    motor.forward();
-    delay(5000);
+  while(toggle_msg.data == 1){ // If Ventilator triggered
+    motor.setSpeed(255);  //run the Fan at full speed
+    motor.forward(); 
+    delay(5000);  // 5 seconds to breath in
     //motors.stop();
     motor.backward();
-    delay(5000);
-  }if(toggle_msg.data == 0){
-    motor.stop();
+    delay(5000); // 5 seconds to breath out
+  }if(toggle_msg.data == 0){  //when fan switches off
+    motor.stop(); // Fan stops
   }
 }
 
