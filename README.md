@@ -32,3 +32,5 @@
   https://flows.nodered.org/node/node-red-contrib-ros
   https://flows.nodered.org/node/node-red-dashboard
   http://wiki.ros.org/melodic/Installation/Ubuntu
+  For further questions feel free to contact me: osaglam1@binghamton.edu
+  Add me in LinkedIn: https://www.linkedin.com/in/oguzalp-saglam961881/
