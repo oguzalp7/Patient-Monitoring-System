@@ -7,6 +7,9 @@
   L298N Motor Driver
   5V PC Fan and a pipe
   20% Coding, 80% Research
+  ![Wiring](https://github.com/oguzalp7/Patient-Monitoring-System/blob/main/Wiring.png)
+  And how is Patient Monitoring System looks like:
+  ![System](https://github.com/oguzalp7/Patient-Monitoring-System/blob/main/3c656eca-b337-4419-a031-9e91c1f474ba.jpg)
 
 
 # 1-Installation
