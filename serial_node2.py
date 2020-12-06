@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 
+"""
+This code is derived from the rosserial_python package in order to add multiple components, that uses SPP(Serial Port Protocol), to the system.
+"""
+
 import rospy
 from rosserial_python import SerialClient, RosSerialServer
 from serial import SerialException
