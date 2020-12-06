@@ -1,4 +1,14 @@
 # Patient-Monitoring-System
+# Hardware
+  2 Arduinos with USB Cables, to make Serial Communication. (any of them works. I used 2 Arduino UNOs)
+  MAX30102 PulseOximeter
+  AD8232 ECG Sensor
+  LM35 Temperature Sensor
+  L298N Motor Driver
+  5V PC Fan and a pipe
+  20% Coding, 80% Research
+
+
 # 1-Installation
   Make every bash script executable : ex. "sudo chmod +x installROS.sh"
   Make sure the bash scripts are located in Home directory.
