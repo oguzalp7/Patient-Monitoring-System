@@ -34,4 +34,5 @@ sudo apt-get install nodejs
 node -v
 sudo npm install -g --unsafe-perm node-red node-red-admin
 sudo ufw allow 1880
-node-red-admin install node-red-contrib-ros
+npm install node-red-contrib-ros
+npm install node-red-dashboard
