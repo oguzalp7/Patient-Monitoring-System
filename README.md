@@ -38,3 +38,4 @@
   - http://wiki.ros.org/melodic/Installation/Ubuntu
   - For further questions feel free to contact me: osaglam1@binghamton.edu
   - Add me in LinkedIn: https://www.linkedin.com/in/oguzalp-saglam961881/
+  - Kaggle: https://www.kaggle.com/oguzsaglam
