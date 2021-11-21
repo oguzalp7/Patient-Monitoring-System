@@ -1,3 +1,3 @@
 #!/bin/bash
-rosrun PMS path_follower_basics.py
+rosrun PMS image_node.py
 
